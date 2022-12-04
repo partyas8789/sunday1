@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+}
+
+.firstcontainer{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+   
+    background: linear-gradient(45deg,#a7def2,#ddf4e5);
+}
+
+.bigmountain{
+    width: 350px;
+    height: 350px;
+    transform: skew(0deg,50deg);
+    margin-top: 250px;
+    background: linear-gradient(#c2ede6,#6ec5f8);
+
+}
+
+.smallmountain{
+    width: 240px;
+    height: 240px;
+    transform: skew(338deg,46deg);;
+    margin-top: 300px;
+    margin-left: -100px;
+    background: linear-gradient(#c2ede6,#6ec5f8);
+
+
+}
+
+
+
+
+
+.sun{
+    width: 180px;
+    height: 180px;
+background-color: yellow;
+position: absolute;
+border-radius: 50%;
+top: -50px;
+right: -50px;
+
+
+}
+
+
+.secondcontainer{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    background: linear-gradient(90deg,#64baee,#aef8fd);
+}
+.penguin img{
+    width: 80%;
+    height: 80%;
+    margin-top: 160px;
+}
